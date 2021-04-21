@@ -38,3 +38,24 @@ img {
   text-align: center;
   margin-bottom: 30px;
 }
+
+.display-center {
+  display: flex;
+  justify-content: center;
+}
+
+.play {
+  display: inline-block;
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+.play:after {
+  content: " ";
+  background: url('../res/icon/play.svg');
+  background-size: 15px;
+  display: inline-block;
+  vertical-align: -2px;
+  width: 15px;
+  height: 15px;
+}
